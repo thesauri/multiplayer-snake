@@ -5,7 +5,11 @@ import Board from '../../components/board/Board';
 class Game extends Component {
   render() {
     return (
-      <Board />
+      <Board
+        players={this.props.players}
+        board={this.props.board}
+        width={640}
+        height={640} />
     );
   }
 }

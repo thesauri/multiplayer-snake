@@ -1,11 +1,11 @@
 import Immutable from 'immutable';
 
-const defaultState = Immutable.Map({
-    1: {
-        color: 'blue'
+const defaultState = Immutable.fromJS({
+    0: {
+        color: '#3498db'
     },
-    2: {
-        color: 'blue'
+    1: {
+        color: '#2ecc71'
     }
 });
 
