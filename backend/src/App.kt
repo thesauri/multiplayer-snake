@@ -5,7 +5,4 @@ fun main(args: Array<String>) {
 
     // Start listening to WebSocket requests
     vertx.deployVerticle(ServerVerticle())
-
-    // Start a single game
-    vertx.deployVerticle(GameVerticle())
 }
